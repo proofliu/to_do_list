@@ -1,0 +1,7 @@
+<h1><%= @task.name %></h1>
+
+<p><strong>Due Day:</strong> <%= @task.due_day %></p>
+<p><strong>Note:</strong></p>
+<%= simple_format @task.note %>
+
+<%= link_to 'Back to index', tasks_path %>
